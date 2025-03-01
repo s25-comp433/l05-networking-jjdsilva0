@@ -8,10 +8,6 @@
 
 import SwiftUI
 
-struct Response: Codable {
-    var results: [Result]
-}
-
 struct Result: Codable {
     var team: String
     var opponent: String
